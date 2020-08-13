@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sistema-bancario.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sistema-bancario.iws" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="github" />
+        <option value="ossrh" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Uwcg5w6im2pQLE9tQdvNoLxgqn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sistemabancario.model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in sistema-bancario (2)">
+    <configuration name="All in sistema-bancario (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sistema-bancario" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in sistema-bancario (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sistema-bancario" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in sistema-bancario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sistema-bancario" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sistema-bancario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sistemabancario.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sistemabancario.model" />
+      <option name="MAIN_CLASS_NAME" value="com.sistemabancario.model.ContaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContaTest.testSetNumeroInvalidoNaoArmazena" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sistema-bancario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sistemabancario.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sistemabancario.model" />
+      <option name="MAIN_CLASS_NAME" value="com.sistemabancario.model.ContaTest" />
+      <option name="METHOD_NAME" value="testSetNumeroInvalidoNaoArmazena" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in sistema-bancario (2)" />
+        <item itemvalue="JUnit.All in sistema-bancario (1)" />
+        <item itemvalue="JUnit.ContaTest" />
+        <item itemvalue="JUnit.ContaTest.testSetNumeroInvalidoNaoArmazena" />
+        <item itemvalue="JUnit.All in sistema-bancario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="" />
+      <created>1590000637765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590000637765</updated>
+      <workItem from="1590000640115" duration="304000" />
+      <workItem from="1590001038821" duration="201000" />
+      <workItem from="1590087008173" duration="167000" />
+      <workItem from="1590753011417" duration="108000" />
+      <workItem from="1592395961607" duration="499000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Calcula dígito de agência usando módulo 10." />
+    <MESSAGE value="Calcula dígito de agência usando módulo 11,&#10;pois este é o padrão de bancos como o Banco do Brasil." />
+    <MESSAGE value="Calcula dígito de agência usando módulo 11,&#10;pois este é o padrão de bancos como o Banco do Brasil.&#10;Atualiza documentação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calcula dígito de agência usando módulo 11,&#10;pois este é o padrão de bancos como o Banco do Brasil.&#10;Atualiza documentação" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="128" y="23" key="#Project_Structure" timestamp="1590000971128">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1590000971128" />
+    <state x="213" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1592396242853">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="213" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1280.777@0.23.1280.777" timestamp="1592396242853" />
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1592396484338">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1592396484338" />
+    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1592396484336">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1592396484336" />
+    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1592396484336">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1592396484336" />
+    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1592396484337">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1592396484337" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1590000881109">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1590000881109" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1590087128749">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1280.777@0.23.1280.777" timestamp="1590087128749" />
+    <state x="426" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590001161725">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="426" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1590001161725" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1592396327861">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1592396327861" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.sistemabancario.model</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">main.java.com.sistemabancario.model.Conta</node>
+    <node x="0.0" y="406.0">main.java.com.sistemabancario.model.Banco</node>
+    <node x="354.0" y="0.0">main.java.com.sistemabancario.model.Cliente</node>
+    <node x="420.0" y="406.0">main.java.com.sistemabancario.model.Movimentacao</node>
+    <node x="0.0" y="636.0">main.java.com.sistemabancario.model.Cadastro</node>
+    <node x="210.0" y="406.0">main.java.com.sistemabancario.model.Agencia</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="454.5" y="300.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

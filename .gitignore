@@ -1,0 +1,23 @@
+*.html
+*.pdf
+build/
+
+#Java Projects
+*.class
+target/
+.idea
+*.iml
+~$*
+**/nbproject/
+aulas/
+provas
+seu-nome-aqui.zip
+
+#MacOS Files
+.DS_Store
+
+#Eclipse and VS Code Project Files
+.classpath
+.project
+.settings/
+.vscode/
