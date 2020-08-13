@@ -28,3 +28,10 @@ na pasta src], contendo a mesma documentação disponível no projeto UML.
 A documentação JavaDoc incluída no código fonte das classes informa como os métodos devem funcionar,
 quais as regras de validação de atributos e outros detalhes.
 A partir destas definições apresentadas, pode-se então escrever os testes e o código dos métodos gerais, getters e setters das classes. Observe que estes dois últimos tipos de métodos não são mostrados no diagrama por simplificação.
+
+== Apresentações
+
+Alguns conceitos relacionados a testes de software são mostrados nas apresentações abaixo:
+
+- link:code-coverage.pptx[Code Coverage]: fundamentos de cobertura de código e como utilizar em projetos Java com JUnit e JaCoCo. https://youtu.be/amDFHIg-D_U[Vídeo-aula disponível aqui].
+- link:continuous-integration.pptx[Continuous Integration e Continuous Deployment (CI/CD)]: fundamentos de Integração Contínua e Implantação Contínua.
