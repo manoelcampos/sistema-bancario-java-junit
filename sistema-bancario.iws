@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="Calcula dígito de agência usando módulo 11,&#10;pois este é o padrão de bancos como o Banco do Brasil.&#10;Atualiza documentação">
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sistema-bancario.iws" beforeDir="false" afterPath="$PROJECT_DIR$/sistema-bancario.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Movimentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Movimentacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -31,7 +35,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -143,6 +147,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="" />
@@ -155,11 +160,12 @@
       <workItem from="1590087008173" duration="167000" />
       <workItem from="1590753011417" duration="108000" />
       <workItem from="1592395961607" duration="499000" />
+      <workItem from="1597786032340" duration="1281000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -190,26 +196,34 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="213" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1280.777@0.23.1280.777" timestamp="1592396242853" />
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1592396484338">
+    <state x="115" y="23" key="CommitChangelistDialog2" timestamp="1597787340074">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1592396484338" />
-    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1592396484336">
+    <state x="115" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1597787340074" />
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1597787343093">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1592396484336" />
-    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1592396484336">
+    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597787343093" />
+    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1597787343092">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1592396484336" />
-    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1592396484337">
+    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1597787343092" />
+    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1597787343092">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1592396484337" />
+    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1597787343092" />
+    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1597787343093">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1597787343093" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1590000881109">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1590000881109" />
+    <state x="370" y="150" width="540" height="524" key="StructurePopup" timestamp="1597786567529">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="370" y="150" width="540" height="524" key="StructurePopup/0.23.1280.777@0.23.1280.777" timestamp="1597786567529" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1590087128749">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

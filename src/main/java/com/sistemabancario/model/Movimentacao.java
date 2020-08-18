@@ -24,38 +24,39 @@ public class Movimentacao implements Cadastro {
 
     /**
      * Tipo da movimentação deve ser 'C' para crédito (entrada de dinheiro)
-     * ou 'D' para débito (saída de dinheiro). (R01)
+     * ou 'D' para débito (saída de dinheiro) (R01).
      */
     private char tipo;
 
     /**
      * Valor monetário da movimentação.
-     * O valor não deve ser negativo, uma vez que existe o atributo {@link #tipo}. (R02)
-     * Se o tipo for débito, o valor da movimentação não pode ser superior ao saldo total da {@link Conta}. (R03)
+     * O valor não deve ser negativo, uma vez que existe o atributo {@link #tipo} (R02).
+     * Se o tipo for débito, o valor da movimentação não pode ser superior ao saldo total da {@link Conta} (R03).
      */
     private double valor;
 
     /**
-     * Indica se a movimentação foi confirmada e deve ser registrada no saldo da
+     * Indica se a movimentação foi confirmada, neste caso, devendo ser registrada no saldo da
      * conta, quando for adicionada à lista de movimentações usando
      * {@link Conta#addMovimentacao(Movimentacao)}.
      *
      * <ul>
-     *  <li>Movimentacoes devem ser instanciadas como "confirmadas" por padrão. (R04)</li>
+     *  <li>Movimentacoes devem ser instanciadas como "confirmadas" por padrão (R04).</li>
      *  <li>
-     *      Somente operações como depósito em envelope ou em cheque devem ser
+     *      Somente operações como depósito em cheque devem ser
      *      registradas inicialmente como não confirmadas. Após uma operação ser
      *      confirmada, deve-se atualizar o saldo da conta.
      *  <li>
      * </ul>
      *
-     * @see Conta#depositoEnvelope(double)
+     * @see Conta#depositoDinheiro(double)
      * @see Conta#depositoCheque(double)
      */
     private boolean confirmada;
 
     /**
-     * Instancia uma movimentação para uma determinada {@link Conta} bancária. (R05)
+     * Instancia uma movimentação para uma determinada {@link Conta} bancária,
+     * onde a conta passada deve ser armazenada no atributo {@link #conta} (R05).
      * @param conta a {@link Conta} para vincular a movimentação.
      */
     public Movimentacao(Conta conta){
