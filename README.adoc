@@ -1,6 +1,7 @@
 :source-highlighter: highlightjs
 :numbered:
 :unsafe:
+:font: icons
 
 ifdef::env-github[]
 :outfilesuffix: .adoc
@@ -33,5 +34,17 @@ A partir destas definições apresentadas, pode-se então escrever os testes e o
 
 Alguns conceitos relacionados a testes de software são mostrados nas apresentações abaixo:
 
-- link:code-coverage.pptx[Code Coverage]: fundamentos de cobertura de código e como utilizar em projetos Java com JUnit e JaCoCo. https://youtu.be/amDFHIg-D_U[Vídeo-aula disponível aqui].
+- link:code-coverage.pptx[Code Coverage]: fundamentos de cobertura de código e como utilizar em projetos Java com http://junit.org[JUnit] e http://jacoco.org/jacoco[JaCoCo]. https://youtu.be/amDFHIg-D_U[Vídeo-aula disponível aqui].
 - link:continuous-integration.pptx[Continuous Integration e Continuous Deployment (CI/CD)]: fundamentos de Integração Contínua e Implantação Contínua. https://youtu.be/wA1RbmK-QRA[Vídeo-aula disponível aqui].
+
+
+[IMPORTANT]
+====
+O relatório de cobertura de código do JaCoCo **NÃO é gerado** se existir algum espaço em qualquer lugar no caminho completo da pasta onde você salvou o projeto. Por exemplo, se o projeto estiver em: 
+
+`/home/usuario/meus projetos/projeto incrível` 
+
+você deverá renomear as pastas para algo como (preferencialmente evitando acentos) 
+
+`/home/usuario/meus-projetos/projeto-incrivel`.
+====
