@@ -1,5 +1,7 @@
 package com.sistemabancario.model;
 
+import java.util.Objects;
+
 /**
  * Representa uma movimentação em uma {@link Conta} bancária, que pode indicar entrada ou saída.
  *
@@ -15,6 +17,10 @@ package com.sistemabancario.model;
  */
 public class Movimentacao implements Cadastro {
     private long id;
+
+    /**
+     * Descrição não pode ser nula, vazia nem conter apenas espaços em branco (R00).
+     */
     private String descricao;
 
     /**
@@ -45,7 +51,7 @@ public class Movimentacao implements Cadastro {
      *  <li>
      *      Somente operações como depósito em cheque devem ser
      *      registradas inicialmente como não confirmadas. Após uma operação ser
-     *      confirmada, deve-se atualizar o saldo da conta.
+     *      confirmada, deve-se atualizar o saldo da conta (R99).
      *  <li>
      * </ul>
      *
@@ -86,6 +92,11 @@ public class Movimentacao implements Cadastro {
     }
 
     public void setDescricao(String descricao) {
+        Objects.requireNonNull(descricao, "Descrição não pode ser nula.");
+
+        if(descricao.trim().isEmpty()){
+            throw new IllegalArgumentException("Descrição não pode ser vazia.");
+        }
         this.descricao = descricao;
     }
 
