@@ -23,7 +23,7 @@ public class Agencia implements Cadastro {
      * Número único da agência bancária para um banco.
      *
      * <ul>
-     *      <li>O valor é obrigatório, não podendo ser nulo nem vazio. (R02)</li>
+     *      <li>O valor é obrigatório, não podendo ser nulo nem vazio (R02).</li>
      *      <li>
      *          Deve ter exatamente 4 algarismos, seguido de um hífen e mais um dígito verificador.
      *          (o hífen é pra deixar clara a existência de tal dígito). 
@@ -75,5 +75,4 @@ public class Agencia implements Cadastro {
     public void setNumero(String numero) {
         this.numero = numero;
     }
-
 }

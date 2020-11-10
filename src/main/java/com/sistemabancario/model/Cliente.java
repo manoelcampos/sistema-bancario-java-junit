@@ -17,7 +17,7 @@ public class Cliente implements Cadastro {
      * 
      * <ul>
      *      <li>Não pode ser vazio nem nulo, não pode ter todos os dígitos iguais, 
-     *      não pode conter hífens e traços. (R01)</li>
+     *      não pode conter hífens e traços (R01).</li>
      *      <li>
      *          Ao setar o CPF, deve-se utilizar o método {@link #isCpfValido(String)}
      *          para verificar se o CPF é válido ou não. Se for inválido, o valor não deve

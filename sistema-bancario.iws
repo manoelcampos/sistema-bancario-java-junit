@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="" />
+    <list default="true" id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Agencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Cliente.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,6 +170,7 @@
       <workItem from="1592395961607" duration="499000" />
       <workItem from="1597786032340" duration="1281000" />
       <workItem from="1598458035085" duration="567000" />
+      <workItem from="1598549698756" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="Adiciona testes de exemplo para a classe Movimentacao.">
       <created>1598458565400</created>
