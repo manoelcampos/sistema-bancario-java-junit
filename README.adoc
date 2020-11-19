@@ -36,8 +36,8 @@ A partir destas definições apresentadas, pode-se então escrever os testes e o
 
 Alguns conceitos relacionados a testes de software são mostrados nas apresentações abaixo:
 
-- link:code-coverage.pptx[Code Coverage]: fundamentos de cobertura de código e como utilizar em projetos Java com http://junit.org[JUnit] e http://jacoco.org/jacoco[JaCoCo]. https://youtu.be/amDFHIg-D_U[Vídeo-aula disponível aqui].
-- link:continuous-integration.pptx[Continuous Integration e Continuous Deployment (CI/CD)]: fundamentos de Integração Contínua e Implantação Contínua. https://youtu.be/wA1RbmK-QRA[Vídeo-aula disponível aqui].
+- https://docs.google.com/presentation/d/e/2PACX-1vQiRM6mLQ496ptdlXhmILYO__PzXjBHyrzGOPgfCVwWy-0a7h3v-S9bbdHm7V6HO8Y4sQLkvexQvWy3/pub?start=true&loop=false&delayms=60000[Code Coverage]: fundamentos de cobertura de código e como utilizar em projetos Java com http://junit.org[JUnit] e http://jacoco.org/jacoco[JaCoCo]. https://youtu.be/amDFHIg-D_U[Vídeo-aula disponível aqui].
+- https://docs.google.com/presentation/d/e/2PACX-1vQwATi-XTUnQcXi1S2Q6p_O37gQ68D7z0hDzQBSnrIc1WVPmJNoR3lmddY47KFLDpk9iAQoizaVdFOR/pub?start=true&loop=false&delayms=60000[Continuous Integration e Continuous Deployment (CI/CD)]: fundamentos de Integração Contínua e Implantação Contínua. https://youtu.be/wA1RbmK-QRA[Vídeo-aula disponível aqui].
 
 
 [IMPORTANT]
