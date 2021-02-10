@@ -23,12 +23,11 @@ public class Banco implements Cadastro {
      *      O tipo é String para permitir restringir o total de caracteres, mas deve
      *      ser informado um número válido (somente dígitos de 0 a 9). Senão for um
      *      número válido, uma exceção deve ser lançada informando o problema. 
-     *  
-     *      (R02)
      *  </li>
      *  <li>
      *      É um atributo obrigatório, não podendo ser nulo nem vazio. 
      *      Se não for preenchido, uma exceção deve ser lançada informando o problema. 
+     *      (R02)
      *  </li>
      * </ul>
      */
