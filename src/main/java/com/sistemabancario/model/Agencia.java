@@ -44,6 +44,7 @@ public class Agencia implements Cadastro {
      *          com o digitoCalculado, usando o método endsWith da classe String.
      *          Se o numero não terminar com o digitoCalculado, ele é inválido
      *          e uma exceção deve ser lançada para informar isso.
+     *          Um exemplo de agência válida que pode ser utilizada para testes é 1867-8.
      * 
      *          (R04)
      *      </li>
