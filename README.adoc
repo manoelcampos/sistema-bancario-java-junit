@@ -16,17 +16,15 @@ endif::[]
 
 IMPORTANT: Vídeo: https://youtu.be/isOY-qG5bxU[🧪⚙️☕️ #1 TDD com JUNIT 5 no VS CODE: Implementando Regras de Negócio em JAVA pra um Sistema Bancário]
 
-Este projeto fornece um conjunto de classes base para que sejam implementados testes unitários.
-O diagrama abaixo apresenta as classes existentes. O projeto fornece documentação dos requisitos a serem implementados
+Este projeto fornece um conjunto de classes base para que sejam implementados testes unitários
+a partir de um conjunto de requisitos detalhados na documentação. O diagrama abaixo apresenta as classes existentes. 
 
 .Diagrama das Classes de Negócio do Sistema Bancário (pacote link:src/main/java/com/sistemabancario/model[model]).
 image::diagrama-classes-model.png[]
 
 {nbsp} + 
 
-Perceba que a interface `Cadastro` é implementada por todas as classes exibidas acima, mas o relacionamento não foi exibido para evitar um emaranhado de linhas. De qualquer forma, pode observar que as classes são estereotipadas (rotuladas) com `\<<Cadastro>>`.
-
-O código de tais classes foi gerado a partir do StarUML e está disponível em um link:src[projeto Java
+O código de tais classes foi gerado a partir do http://staruml.io[StarUML] e está disponível em um link:src[projeto Java
 na pasta src], contendo a mesma documentação disponível no projeto UML.
 A documentação JavaDoc incluída no código fonte das classes informa como os métodos devem funcionar,
 quais as regras de validação de atributos e outros detalhes.
