@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6aea60-9913-4a93-8ea4-50a51ecd1ca5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../01-introducao-tdd/unit-test-tools.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../01-introducao-tdd/unit-test-tools.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Agencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sistemabancario/model/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -32,12 +31,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
@@ -46,7 +43,6 @@
     </option>
     <option name="disabledProfiles">
       <list>
-        <option value="github" />
         <option value="ossrh" />
       </list>
     </option>
@@ -57,23 +53,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sistemabancario.model" />
@@ -171,6 +163,8 @@
       <workItem from="1597786032340" duration="1281000" />
       <workItem from="1598458035085" duration="567000" />
       <workItem from="1598549698756" duration="33000" />
+      <workItem from="1653482565547" duration="123000" />
+      <workItem from="1653495627559" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="Adiciona testes de exemplo para a classe Movimentacao.">
       <created>1598458565400</created>
@@ -195,7 +189,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -205,59 +198,5 @@
     <MESSAGE value="Calcula dígito de agência usando módulo 11,&#10;pois este é o padrão de bancos como o Banco do Brasil.&#10;Atualiza documentação" />
     <MESSAGE value="Adiciona testes de exemplo para a classe Movimentacao." />
     <option name="LAST_COMMIT_MESSAGE" value="Adiciona testes de exemplo para a classe Movimentacao." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="128" y="23" key="#Project_Structure" timestamp="1590000971128">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="128" y="23" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1590000971128" />
-    <state x="213" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1592396242853">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="213" y="93" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1280.777@0.23.1280.777" timestamp="1592396242853" />
-    <state x="115" y="23" key="CommitChangelistDialog2" timestamp="1598458563807">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="115" y="23" key="CommitChangelistDialog2/0.23.1280.777@0.23.1280.777" timestamp="1598458563807" />
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom" timestamp="1598458603203">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598458603203" />
-    <state width="1238" height="198" key="GridCell.Tab.0.center" timestamp="1598458603202">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1598458603202" />
-    <state width="1238" height="198" key="GridCell.Tab.0.left" timestamp="1598458603201">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1598458603201" />
-    <state width="1238" height="198" key="GridCell.Tab.0.right" timestamp="1598458603202">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="1238" height="198" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1598458603202" />
-    <state x="141" y="50" key="SettingsEditor" timestamp="1590000881109">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1590000881109" />
-    <state x="370" y="150" width="540" height="524" key="StructurePopup" timestamp="1598458153824">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="370" y="150" width="540" height="524" key="StructurePopup/0.23.1280.777@0.23.1280.777" timestamp="1598458153824" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1590087128749">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1280.777@0.23.1280.777" timestamp="1590087128749" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1598458581317">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777@0.23.1280.777" timestamp="1598458581317" />
-    <state x="426" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598458088410">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="426" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1598458088410" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1592396327861">
-      <screen x="0" y="23" width="1280" height="777" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1592396327861" />
   </component>
 </project>
