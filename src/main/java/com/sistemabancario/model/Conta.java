@@ -3,6 +3,7 @@ package com.sistemabancario.model;
 import java.util.List;
 
 /**
+ * Alterado durante a aula
  * Representa uma conta bancária de um determinado {@link Cliente}, tendo os
  * seguintes requisitos:
  *
