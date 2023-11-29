@@ -41,7 +41,8 @@ public final class Util {
             soma += (vetor.length + 1 - i) * algarismo;
         }
 
-        final int dig = 11 - (soma % 11);
-        return dig > 9 ? "0" : Integer.toString(dig);
+        final int modulo = 11;
+        final Integer dig = modulo - (soma % modulo);
+        return dig > 9 ? "0" : dig.toString();
     }
 }
