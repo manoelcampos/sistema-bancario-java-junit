@@ -94,9 +94,10 @@ public class Movimentacao implements Cadastro {
     public void setDescricao(String descricao) {
         Objects.requireNonNull(descricao, "Descrição não pode ser nula.");
 
-        if(descricao.trim().isEmpty()){
+        if(descricao.isBlank()) {
             throw new IllegalArgumentException("Descrição não pode ser vazia.");
         }
+
         this.descricao = descricao;
     }
 
