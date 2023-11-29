@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class ContaTest {
     
     @Test
-    void testAddMovimentacao() {
+    void addMovimentacao() {
         //TODO: Você precisa implementar este teste
     }
     

@@ -23,11 +23,11 @@ class MovimentacaoTest {
      * Verifica se o valor passado para o ID está sendo realmente armazenado.
      */
     @Test
-    void testGetId() {
-        final Movimentacao instance = new Movimentacao(new Conta());
+    void getId() {
+        final var movimentacao = new Movimentacao(new Conta());
         final long esperado = 1;
-        instance.setId(esperado);
-        final long obtido = instance.getId();
+        movimentacao.setId(esperado);
+        final long obtido = movimentacao.getId();
         assertEquals(esperado, obtido);
     }
 
@@ -39,28 +39,36 @@ class MovimentacaoTest {
      * </p>
      */
     @Test
-    void testR00SetDescricaoNula() {
-        final Movimentacao instance = new Movimentacao(new Conta());
-        assertThrows(NullPointerException.class, () -> instance.setDescricao(null));
+    void r00SetDescricaoNula() {
+        final var movimentacao = new Movimentacao(new Conta());
+        assertThrows(NullPointerException.class, () -> movimentacao.setDescricao(null));
     }
 
     /**
      * R00 - Verifica se ocorre erro ao tentar inserir uma descrição vazia.
      */
     @Test
-    void testR00SetDescricaoVazia() {
-        final Movimentacao instance = new Movimentacao(new Conta());
-        assertThrows(IllegalArgumentException.class, () -> instance.setDescricao(""));
+    void r00SetDescricaoVazia() {
+        final var movimentacao = new Movimentacao(new Conta());
+        assertThrows(IllegalArgumentException.class, () -> movimentacao.setDescricao(""));
     }
 
     /**
      * R00 - Verifica se ocorre erro ao tentar inserir uma descrição somente com espaços em branco.
      */
     @Test
-    void testR00SetDescricaoBranco() {
-        final Movimentacao instance = new Movimentacao(new Conta());
+    void r00SetDescricaoBranco() {
+        final var movimentacao = new Movimentacao(new Conta());
         final String espacosEmBranco = "           ";
-        assertThrows(IllegalArgumentException.class, () -> instance.setDescricao(espacosEmBranco));
+        assertThrows(IllegalArgumentException.class, () -> movimentacao.setDescricao(espacosEmBranco));
+    }
+
+    @Test
+    void setDescricaoValida() {
+        final var movimentacao = new Movimentacao(new Conta());
+        final String descricao = "Saque Caixa Eletrônico";
+        movimentacao.setDescricao(descricao);
+        assertEquals(descricao, movimentacao.getDescricao());
     }
 
 }
