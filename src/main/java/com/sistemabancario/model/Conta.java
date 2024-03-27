@@ -17,7 +17,7 @@ public class Conta implements Cadastro {
     private long id;
 
     /**
-     * Número que identifica unicamente uma conta em uma determinada agência,
+     * Número que identifica unicamente uma conta numa determinada agência,
      * devendo estar no formato 99999-9. Se o número não estiver no formato
      * indicado, o valor não pode ser armazenado e uma exceção deve ser lançada
      * (R01). O número da agência tem um dígito verificador como no CPF, mas
@@ -164,6 +164,9 @@ public class Conta implements Cadastro {
     }
 
     public void setNumero(String numero) {
+        if (!numero.matches("\\d{5}-\\d")) {
+            throw new IllegalArgumentException(numero+" não é valido");
+        }
         this.numero = numero;
     }
 
