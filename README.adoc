@@ -16,7 +16,7 @@ endif::[]
 
 = Minha cobertura de teste.
 image::src/images/img.png[Imagem de cobertura de teste]
-
+---
 IMPORTANT: Vídeo: https://youtu.be/isOY-qG5bxU[🧪⚙️☕️ #1 TDD com JUNIT 5 no VS CODE: Implementando Regras de Negócio em JAVA pra um Sistema Bancário]
 
 Este projeto fornece um conjunto de classes base para que sejam implementados testes unitários
