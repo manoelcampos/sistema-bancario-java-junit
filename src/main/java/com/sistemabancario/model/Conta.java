@@ -66,9 +66,14 @@ public class Conta implements Cadastro {
         // TODO: Você precisa implementar este método
     }
 
+    public Conta(double Limite) {
+        this.limite = Limite;
+    }
+
     public Conta(Agencia agencia, boolean especial, final double limite) {
         // TODO: Você precisa implementar este método
     }
+
 
     /**
      * Retorna a lista de movimentações.
@@ -91,7 +96,13 @@ public class Conta implements Cadastro {
      * @param movimentacao {@link Movimentacao} a ser adicionada
      */
     public void addMovimentacao(Movimentacao movimentacao) {
-        // TODO: Você precisa implementar este método
+        if (movimentacao.isConfirmada()){
+            if (movimentacao.getTipo() == 'C'){
+                saldo += movimentacao.getValor();
+            } else if (movimentacao.getTipo() == 'D'){
+                saldo -= movimentacao.getValor();
+            }
+        }
     }
 
     /**
@@ -101,9 +112,7 @@ public class Conta implements Cadastro {
      * @return
      */
     public double getSaldoTotal() {
-        /* TODO: Você precisa implementar este método. 
-        A linha abaixo deve ser substituída pelo seu código */
-        return 0.0;
+        return saldo + limite;
     }
 
     /**
@@ -165,7 +174,7 @@ public class Conta implements Cadastro {
 
     public void setNumero(String numero) {
         if (!numero.matches("\\d{5}-\\d")) {
-            throw new IllegalArgumentException(numero+" não é valido");
+            throw new IllegalArgumentException(numero + " não é valido");
         }
         this.numero = numero;
     }

@@ -6,13 +6,12 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 
 import static org.junit.jupiter.api.Assertions.*;
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+
 class ContaTest {
 
-    private final Conta conta = new Conta();
+    public final Conta conta = new Conta();
 
     @Test
-    @Order(1)
     void setNumValido_R01() {
         final var valido = "02120-2";
         conta.setNumero(valido);
@@ -20,7 +19,6 @@ class ContaTest {
     }
 
     @Test
-    @Order(2)
     void setNumInv_R01() {
         final var inv = "abc";
         assertAll(
@@ -32,6 +30,24 @@ class ContaTest {
     @Test
     void poupancaFalse_R02() {
         assertFalse(conta.isPoupanca());
+    }
+
+    @Test
+    void getSaldoTotal_R06() {
+        int expected = 100;
+        conta.setLimite(expected);
+        assertEquals(expected,conta.getSaldoTotal());
+    }
+
+    @Test
+    void addAddMovimentacao_R07() {
+        final var mov = new Movimentacao(conta);
+        mov.setConfirmada(true);
+        mov.setTipo('C');
+        final int valor = 50;
+        mov.setValor(valor);
+        conta.addMovimentacao(mov);
+        assertEquals(valor, conta.getSaldoTotal());
     }
 
 
