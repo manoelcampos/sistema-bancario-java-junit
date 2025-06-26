@@ -9,34 +9,33 @@
     <version>1.0.0</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>24</maven.compiler.release>
     </properties>
-    
+
     <build>
         <plugins>
             <!-- Necessário para executar o JUnit em projetos Maven -->
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
-            </plugin>            
-                        
+                <version>3.5.3</version>
+            </plugin>
+
             <!-- Necessário para executar o JUnit em projetos Maven -->
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>3.0.0-M5</version>
+                <version>3.5.3</version>
             </plugin>
 
             <!--
-             Plugin para computar cobertura de código: 
-             computar o percentual do código que está sendo coberto pelos 
+             Plugin para computar cobertura de código:
+             computar o percentual do código que está sendo coberto pelos
              testes unitários.
              https://www.jacoco.org/jacoco/trunk/doc/examples/build/pom.xml
             -->
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.10</version>
+                <version>0.8.13</version>
                 <executions>
                     <execution>
                         <goals>
@@ -47,13 +46,13 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>    
+    </build>
 
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.6.2</version>
+            <version>5.12.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
